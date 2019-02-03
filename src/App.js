@@ -42,14 +42,6 @@ class App extends Component {
     );
   }
 }
-//{this.state.tabs.map(tab => <Route path={tab.id} component={lazy(() => import('./tabs/'+tab.id))} />)}
 
-
-/*
-            <Route exact path={'/dummyList/'} component={DummyList} />
-            <Route exact path={'/dummyChart/'} component={DummyChart} />
-            <Route exact path={'/dummyTable/'} component={DummyTable} />
-
-*/
 
 export default App;
